@@ -160,10 +160,7 @@ body * {
     font-size: 11px;
 }
 
-.complete-container {
-    padding: 107px 135px 414px;
-    position: relative;
-}
+
 
 .projects-discription{
     position: relative;
@@ -177,10 +174,17 @@ body * {
     width: 1440px;
     margin: 0 auto;
     height: 1074px;
-    padding-bottom: 90px;
 }
 
-
+.complete-container {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
 
 .title-complete {
     font-family: 'Yeseva One';
@@ -191,8 +195,8 @@ body * {
     text-transform: uppercase;
     color: white;
     position: relative;  
-    width: 40%;
-    
+    width: 31%;
+    margin: 0px;
 }
 
 .content-projects {
@@ -203,4 +207,15 @@ body * {
     line-height: 27px;
     color: #FFFFFF;
     text-transform:none;
+}
+
+.complete-img {
+    background: url('../images/complete.jpg');
+    margin: 0px;
+    position: relative;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    right: 0px;
 }
